@@ -1,0 +1,35 @@
+
+.App {
+    text-align: center;
+  }
+  .stocks {
+    display: block;
+    row-gap: 10px;
+  
+  }
+  
+  #symbol{
+    width: 10%;
+  }
+  
+  #price{
+    width:30%;
+  }
+  
+  #company{
+    width: 40%;
+  }
+  
+
+  #change{
+    width: 20%;
+  }
+  
+  
+
+  
+
+  
+
+  
+  
