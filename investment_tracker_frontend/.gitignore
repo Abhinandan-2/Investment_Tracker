@@ -23,4 +23,6 @@ yarn-debug.log*
 yarn-error.log*
 package-lock.json
 
-/src/APIs/stockDataApi.js
+src/APIs
+src/components/portfolio
+package-lock.json
