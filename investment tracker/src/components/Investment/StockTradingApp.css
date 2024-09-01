@@ -1,0 +1,45 @@
+/* StockTradingApp.css */
+
+.stock-trading-app {
+  text-align: center;
+  margin: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.selected-stock {
+  border: 2px solid #ccc;
+  margin-top: 20px;
+  padding: 0px 0px 0px 0px;
+}
+
+.Ava_Search{
+  margin-top: 50px;
+  margin-bottom: 20px;
+  background-color: #dbedfa;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 10px;
+  color: #5a287d;
+}
+
+.quantityForm{
+  align-items: center;
+}
+
+.selected-stock-header{
+  background-color: #dbedfa;
+}
+
+.buttonNatwest.btn.btn-primary{
+  background-color: #5e10b1;
+  color: white;
+  border-color: #5e10b1;
+  margin : 10px 10px 10px 10px;
+}
+
+.buttonNatwest.btn.btn-primary:active{
+  background-color: #5e10b1;
+  color: white;
+  border-color: #5e10b1;
+  margin : 10px 10px 10px 10px;
+}

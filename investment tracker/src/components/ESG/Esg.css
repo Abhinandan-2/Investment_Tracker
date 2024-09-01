@@ -1,0 +1,103 @@
+.body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+  }
+  
+  .esg-container {
+    width: 100%;
+    padding: 100px;
+    padding-bottom: 110px;
+    background: linear-gradient(to right, #3c1053, #633088);
+    margin-bottom:-70px;
+  }
+  
+  .esg-container h1 {
+    font-size: 2rem;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  
+  .esg-container p {
+    color: #fff;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 800px;
+  }
+  
+  .card-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin:  20px auto;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .ESG--heading {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  .esg-card, .card {
+    flex-basis: calc(33.33% - 20px);  /* Allocate a third of space for each card minus some spacing */
+    box-sizing: border-box;
+    /* padding-right: 10px;  */
+    border-right: 1px solid #ccc;
+    position: relative;
+  }
+  
+  /* .esg-card:last-child, .card:last-child {
+    border-right: none;
+  }
+  
+  .esg-card .card-body, .card .card-body {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  } */
+  
+  /* Jumbotron styling */
+  .esg-investing-jumbotron {
+    max-width: 1200px;
+    width: 100%;
+    margin: 20px auto;
+    padding: 40px;
+    background-color: #f7f7f7; /* Light gray background */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    font-size: 1.2em; /* Making the font slightly larger for the jumbotron */
+  }
+  
+  .esg-investing-jumbotron h2 {
+    margin-top: 0; /* Removes top margin */
+  }
+  
+  .outlined-button {
+    border: 2px solid #5a287d; /* Border color */
+    background-color: transparent; /* Transparent background */
+    color: #5a287d; /* Text color to match the outline */
+    padding: 10px 20px; /* Padding for the button */
+    font-size: 16px; /* Text size */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Change cursor to hand on hover */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+  }
+  
+  .outlined-button:hover {
+   color: #5a287d; /* Fill background on hover */
+    /* Change text color to white on hover */
+  }
+  
